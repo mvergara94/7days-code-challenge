@@ -1,0 +1,35 @@
+/* Cabeçalho */
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  font-weight: 500;
+}
+
+.cabecalho::before {
+  content: '';
+  display: inline-block;
+  height: 30px;
+  width: 28px;
+  background-image: url(../img/logo.svg);
+  background-repeat: no-repeat;
+}
+
+.cabecalho__titulo {
+  font-weight: 600;
+  color: var(--light-black);
+  font-size: 1.2em;
+  padding: 0 120px 0 4px;
+}
+
+.cabecalho__navegacao {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.navegacao__lista {
+  display: flex;
+  gap: 32px;
+}

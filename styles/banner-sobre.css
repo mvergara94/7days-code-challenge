@@ -1,0 +1,24 @@
+.banner-sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 0;
+  gap: 1.5rem;
+}
+
+.banner-sobre h4 {
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.banner-sobre span {
+  font-size: 3rem;
+  color: var(--title-color);
+  font-weight: 600;
+}
+
+.banner-sobre p {
+  font-size: 1.25rem;
+  width: calc(100% - 30rem);
+  text-align: center;
+}

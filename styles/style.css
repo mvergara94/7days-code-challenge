@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('cabecalho.css');
+@import url('banner-sobre.css');
+@import url('dados-empresa.css');
+@import url('banner-vagas.css');
+@import url('vagas.css');
+
+:root {
+  --title-color: #101828;
+  --primary-color: #667085;
+  --secondary-color: #8e2424;
+  --white: #ffffff;
+  --light-black: #3a404e;
+  --border-color: #eaecf0;
+
+  --primary-font: 'Inter', sans-serif;
+}
+
+body {
+  font-size: 16px;
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  width: 88%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+/*  Classes compartilhadas */
+.botao {
+  color: var(--white);
+  background-color: var(--secondary-color);
+  border-radius: 0.5rem;
+  padding: 0.8em 1.5em;
+  cursor: pointer;
+}

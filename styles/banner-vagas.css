@@ -1,0 +1,32 @@
+.banner-vagas {
+  text-align: center;
+  padding: 6rem 0 4rem 0;
+}
+
+.banner-vagas__conteudo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-bottom: 4rem;
+}
+
+.banner-vagas__conteudo h4 {
+  color: var(--secondary-color);
+  max-width: fit-content;
+  font-size: 0.8rem;
+  padding: 4px 12px;
+  background-color: rgba(142, 36, 36, 0.05);
+  border-radius: 1rem;
+  font-weight: 500;
+}
+
+.banner-vagas__conteudo h2 {
+  font-weight: 600;
+  font-size: 2.25rem;
+  color: var(--light-black);
+}
+
+.banner-vagas__conteudo p {
+  font-size: 1.25rem;
+}

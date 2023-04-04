@@ -1,0 +1,36 @@
+.vagas {
+  display: flex;
+  margin: 0 auto 6rem;
+  flex-direction: column;
+
+  gap: 4rem;
+  max-width: 768px;
+}
+
+.vagas__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.vagas__especialidade {
+  font-size: 1.25rem;
+  color: var(--light-black);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.vagas__card {
+  padding: 1.5rem 1.5rem 1.75rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+}
+
+.vagas__card h4 {
+  font-size: 1.125rem;
+  color: var(--light-black);
+  font-weight: 500;
+}
