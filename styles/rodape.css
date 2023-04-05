@@ -1,0 +1,37 @@
+.rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 6rem 0;
+  gap: 2rem;
+}
+
+.rodape h2 {
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 2.25rem;
+}
+
+.rodape p {
+  font-size: 1.25rem;
+}
+
+.rodape form {
+  display: flex;
+  gap: 1rem;
+}
+
+.rodape form input {
+  padding: 0.75rem 11rem 0.75rem 0.5rem;
+  border: 1px solid #d0d5dd;
+  border-radius: 0.5rem;
+}
+
+.rodape form input::placeholder {
+  color: var(--primary-color);
+}
+
+.rodape form button {
+  border: none;
+}
