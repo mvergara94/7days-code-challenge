@@ -1,4 +1,4 @@
-# Frontend Mentor - Results summary component solution
+# Challenge 7 Days of Code, Optimus Tech Website.
 
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
